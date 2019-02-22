@@ -1,0 +1,11 @@
+server:
+  port: 8899
+
+jwt.header: Authorization
+jwt.secret: mySecret
+jwt.expiration: 604800
+jwt.route.authentication.path: /auth
+jwt.route.authentication.refresh: /refresh
+logging:
+  level:
+    com.example.demo: info
